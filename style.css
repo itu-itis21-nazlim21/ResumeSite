@@ -1,0 +1,92 @@
+*{
+    margin : 0;
+    padding : 0;
+
+
+}
+
+
+.header{
+    min-height: 100vh;
+    width: 100;
+    background-image: linear-gradient(rgba(184, 185, 189, 0.7),rgba(4,9,30,0.7)),url("adampicture.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav.img {
+    width: 150px;
+}
+
+.navigation-link {
+    flex:1;
+    text-align: center;
+    
+
+
+}
+
+.navigation-link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+
+}
+.navigation-link ul li a{
+    color: #000;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+.navigation-link ul li::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: rgb(15, 9, 48);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navigation-link ul li:hover::after {
+    width: 100%;
+
+}
+
+.metin-kutusu {
+    width: 100%;
+    color: #000;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+
+.alt-kisim{
+    position: relative;
+    width: 100%;
+    color: #000;
+    position: absolute;
+    bottom: 0cm;
+    padding-right: 0%;
+    text-align: right;
+    
+    
+    
+    
+}
