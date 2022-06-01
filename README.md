@@ -158,8 +158,12 @@ reset
 -
 -
 ---SAVE----------------------------------------------------------------------------------------------------------------------------------------------------
+#If you use 'name' parameter it will be saved on default folder. 
+#If you use 'path' parameter it will be saved on the given path. 
+#e.g -> path = /users/myname/desktop/myfolder/example 
+        extension = .jpeg
 
-save=<typeanythinghere>       name = <nameoftheimage>   export_location = <path>        extension = <.jpeg,.jpg,.png....>       dpi = <250,300...>
+save=<typeanythinghere>     extension = <.jpeg,.jpg,.png....>    'name = <nameoftheimage>    'OR'    export_location = <path> '        dpi = <250,300...>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 -
@@ -169,9 +173,9 @@ save=<typeanythinghere>       name = <nameoftheimage>   export_location = <path>
 
 #Be aware that 'file' parameter search the file on default folder. You can check/change default folder on settings section.
 
-changedata = <x,y>      file=<nameofthefile.csv/xlsx>            row = <rownumber>      'OR'     column = <columnnumber> 
-changedata = <x,y>      path=<thepathofthefile.csv/xlsx>         row = <rownumber>      'OR'     column = <columnnumber>
-changedata = <x,y>      link=<thelink>                           row = <rownumber>      'OR'     column = <columnnumber>
+changedata = <x,y>      file=<nameofthefile.csv/xlsx>            'row = <rownumber>      'OR'     column = <columnnumber>'
+changedata = <x,y>      path=<thepathofthefile.csv/xlsx>         'row = <rownumber>      'OR'     column = <columnnumber>'
+changedata = <x,y>      link=<thelink>                           'row = <rownumber>      'OR'     column = <columnnumber>'
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
