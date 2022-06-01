@@ -167,8 +167,10 @@ save=<typeanythinghere>       name = <nameoftheimage>   export_location = <path>
 -
 --------------CHANGEDATA------------------------------------------------------------------------------------------------------------------------------
 
+#Be aware that 'file' parameter search the file on default folder. You can check/change default folder on settings section.
+
 changedata = <x,y>      file=<nameofthefile.csv/xlsx>            row = <rownumber>      'OR'     column = <columnnumber> 
-changedata = <x,y>      path = <thepathofthefile.csv/xlsx>       row = <rownumber>      'OR'     column = <columnnumber>
+changedata = <x,y>      path=<thepathofthefile.csv/xlsx>         row = <rownumber>      'OR'     column = <columnnumber>
 changedata = <x,y>      link=<thelink>                           row = <rownumber>      'OR'     column = <columnnumber>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
