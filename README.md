@@ -29,9 +29,9 @@ In the submission there is a file **accinfos** in the folder **important** which
 2. Graphiquez for datasets
   - Choose datasets and plot them as you wish
 3. Graphiquez for mathematical functions
-  -Choose 2D or 3D and give the function, let it plot
+  - Choose 2D or 3D and give the function, let it plot
 4.Account
-  -See the account informations
+  - See the account informations
   
   
 #Graphiquez for dataset PRO mode
