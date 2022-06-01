@@ -12,17 +12,33 @@
 
 
 
+-
+-
+-
+-
+-
 
 This project uses a cloud database which is mongodb atlas. In the database for log records, your ip adress and computer name will be saved. For enable you to manage your accounts this application also saves your username and your password-encrypted with SHA256-. 
 
+
+
+        
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 For the instructor who is reading this, 
 You can use this account instead of creating a new one: username = ITUADMIN
                                                         password = ITUITUADMINADMIN1773
                
 In the submission there is a file **accinfos** in the folder **important** which includes all information about database access. To manage the database, a completely new gmail account and mongodb account are created. I have shared the passwords information, birthday information, gender information etc.. 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
 
 ##After logging in, you have 4 choices:
+
+
 
 1. Settings 
   - You can change the settings in here.
@@ -30,11 +46,19 @@ In the submission there is a file **accinfos** in the folder **important** which
   - Choose datasets and plot them as you wish
 3. Graphiquez for mathematical functions
   - Choose 2D or 3D and give the function, let it plot
-4.Account
+4. Account
   - See the account informations
   
   
+  
+  
+  
+  
+  
+  
+  
 #Graphiquez for dataset PRO mode
+
 You will choose datasets that will be used for x axis and y axis. You have 3 options;
 1. Use files that located on default folder 
 2. Give the path 
@@ -42,11 +66,31 @@ You will choose datasets that will be used for x axis and y axis. You have 3 opt
 3. Give the link
   - Be sure that the link contains html table.
 
+
+
+
+
 After choosing the datasets you will be greeted with something like terminal. 
-In this section, you have chose the datasets, there are some functions that you can use. 
+In this section, there are some functions that you can use. 
 Those are;
-1. Draw
-  -
+
+
+1. draw
+  - Ables you to draw graphs
+    - example: draw=scatter color=blue xlabel=xaxis ylabel=yaxis title=mygraph
+2. show
+  -It will show the graph
+    - example: just type 'show'
+3. savefigure
+  - To save figure as a figure, not as a image. This will allow you to work on it again.
+4. save
+  - It will the figure as a image.
+5. changedata 
+  - This function allows you to change the dataset/row-column that you are working on.
+    - e.g -> changedata=x file=example.xlsx column= 0 (the data for x axis changed with 0th column of example.csv)
+6. reset
+  - This will reset the figure. Everything will be deleted.
+ 
 
 
 
