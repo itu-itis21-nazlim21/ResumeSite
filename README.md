@@ -124,15 +124,6 @@ Those are;
   - This will reset the figure. Everything will be deleted.
  
  
--
--
--
--
--
--
--
--
--
 
  
 **__USAGES AND ALL PARAMETERS__**
