@@ -176,5 +176,15 @@ changedata = <x,y>      link=<thelink>                           row = <rownumbe
 ```
      
 
+#GRAPHIQUEZ FOR AMATEURS
+Again, you will choose datasets for x and y axis. But this time the parameters will be given as ordinary inputs.
+type 'default' to inputs if you want to default parameters.
+
+
+#GRAPHIQUEZ FOR MATHEMATICAL FUNCTIONS.
+1. 2D
+2. 3D
+
+Type the function, 
 
 
