@@ -130,7 +130,7 @@ Those are;
 
 Note: You do not have to give all of the parameters. The ones that you did not use will be default.
 ```
---DRAW--
+--DRAW--------------------------------------------------------------------------------------------------------------------------------
 draw=line color= <red,blue,green...>   label= <name_it>  xlabel = <name_it>    ylabel = <name_it>    title = <name_it>    
           linestyle= <solid,dashed...>  marker = <o,-...>
 
@@ -140,23 +140,33 @@ draw=scatter color = <red....>   label = <name_it>    xlabel = <name_it   ylabel
 draw=bar  color = <...>     xlabel=<name_it>     ylabel=<name_it>       title = <name_it>          width = <e.g 0.7>
 
 draw=pie  title=<name_it> 
--------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-
+-
+-
 
--NON PARAMETER FUNCTIONS--------
+-NON PARAMETER FUNCTIONS------------------------------------------------------------------------------------------------------------------------
+
 show
 
 savefigure 
 
 reset 
 
--------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+-
+-
+-
+---SAVE--------------------------------------------------------------------------------------------------------------------------------------
 
----SAVE----------------------------------------------------------------------------------------------------------
 save=<typeanythinghere>       name = <nameoftheimage>   export_location = <path>        extension = <.jpeg,.jpg,.png....>       dpi = <250,300...>
 
 ----------------------------------------------------------------------------------------------------------------
-
+-
+-
+-
 --------------CHANGEDATA------------------------------------------------------------------------------------
+
 changedata = <x,y>      file=<nameofthefile.csv/xlsx>            row = <rownumber>      'OR'     column = <columnnumber> 
 changedata = <x,y>      path = <thepathofthefile.csv/xlsx>       row = <rownumber>      'OR'     column = <columnnumber>
 changedata = <x,y>      link=<thelink>                           row = <rownumber>      'OR'     column = <columnnumber>
