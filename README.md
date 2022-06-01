@@ -48,9 +48,9 @@ In the submission there is a file **accinfos** in the folder important which inc
 
 
 
-
-##After logging in, you have 4 choices:
-
+------------------------------------------
+After logging in, you have 4 choices:
+--------------------------------------
 
 
 1. Settings 
@@ -65,12 +65,23 @@ In the submission there is a file **accinfos** in the folder important which inc
   
   
   
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+ -
+ 
   
   
   
-  
-  
-#Graphiquez for dataset PRO mode
+---------------------------------------------------------------
+Graphiquez for dataset PRO mode
+---------------------------------------------------------------
 
 You will choose datasets that will be used for x axis and y axis. You have 3 options;
 1. Use files that located on default folder 
@@ -79,11 +90,19 @@ You will choose datasets that will be used for x axis and y axis. You have 3 opt
 3. Give the link
   - Be sure that the link contains html table.
 
+-
+-
+-
+-
+-
 
 
 
 
-After choosing the datasets you will be greeted with something like terminal. 
+After choosing the datasets you will be greeted with something like terminal provided below. 
+-->
+-->
+-->
 In this section, there are some functions that you can use. 
 Those are;
 
@@ -104,6 +123,19 @@ Those are;
 6. reset
   - This will reset the figure. Everything will be deleted.
  
+ 
+**__USAGES AND ALL PARAMETERS__**
+'''
+draw=line color= <red,blue,green...>   label= <name_it>  xlabel = <name_it>    ylabel = <name_it>    title = <name_it>    
+          linestyle= <solid,dashed...>  marker = <o,-...>
+
+draw=scatter color = <red....>   label = <name_it>    xlabel = <name_it   ylabel = <name_it>   title = <name_it> 
+             marker = <o,-....>  
+             
+draw=bar  color = <...>     xlabel=<name_it>     ylabel=<name_it>       title = <name_it>          width = <e.g 0.7>
+
+draw=pie  title=<name_it> 
+     
 
 
 
