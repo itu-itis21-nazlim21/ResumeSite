@@ -124,7 +124,16 @@ Those are;
   - This will reset the figure. Everything will be deleted.
  
  
+ .
+ .
+ .
+ .
+ .
+ .
+ 
 **__USAGES AND ALL PARAMETERS__**
+
+
 '''
 draw=line color= <red,blue,green...>   label= <name_it>  xlabel = <name_it>    ylabel = <name_it>    title = <name_it>    
           linestyle= <solid,dashed...>  marker = <o,-...>
@@ -135,6 +144,7 @@ draw=scatter color = <red....>   label = <name_it>    xlabel = <name_it   ylabel
 draw=bar  color = <...>     xlabel=<name_it>     ylabel=<name_it>       title = <name_it>          width = <e.g 0.7>
 
 draw=pie  title=<name_it> 
+'''
      
 
 
