@@ -200,8 +200,11 @@ type 'default' to a input if you want a default parameter.
 Firstly, it will ask you to type your function. _The functions only x and y are allowed. No sin, cos, etc._
 Important note: 
 Do **not** write _2x_
+
 Do     write _2*x_
+
 Do **not** write _x^2_
+
 Do     write _x**2_
 
 -
